@@ -14,12 +14,10 @@ In this project:
 In the transfer learning path, I froze the base layer, removed the top layers, and added some custom top layers to suit my problem statement.
 Initially, I noticed that the model was underfitting the train data because I used only few layers to train, I had 30% correct prediction on the train data. Then I was just using a GlobalAveragePooling2D, a Dense layer of 1024 units, and the prediction layer of 6 units.
 Then I added more features to the model with more layers: I added 4 more Dense layers with 3024, 2024, 1024, and 512 units respectively before the prediction layer.
-For the resnet50 model implemented from scratch, I trained for 10 epochs while the pretrained model for 15 epochs. My goal is to show the implementation from scratch, compaare the result with the pretrained model, and
-show how to solve underfitting. I am not working to achieve a high accuracy model.
+For the resnet50 model implemented from scratch, I trained for 10 epochs while the pretrained model for 15 epochs. My goal is to show the implementation from scratch, compare the result with the pretrained model, and
+show how to solve underfitting. I am not working to achieve a high accuracy model. However, I could do that in the future.
 
 Link to the trained models https://drive.google.com/drive/folders/1KimFqzYHygCuRR3Csjz81Zne0AUJNhVb?usp=share_link
-
-However, I could do that in the future.
 
 In this project, I practically show that adding more layers to model can help to solve underfitting on train data. 
 Reference:
