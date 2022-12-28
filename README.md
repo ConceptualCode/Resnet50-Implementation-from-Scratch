@@ -17,6 +17,8 @@ Then I added more features to the model with more layers: I added 4 more Dense l
 For the resnet50 model implemented from scratch, I trained for 10 epochs while the pretrained model for 15 epochs. My goal is to show the implementation from scratch, compaare the result with the pretrained model, and
 show how to solve underfitting. I am not working to achieve a high accuracy model.
 
+Link to the trained models https://drive.google.com/drive/folders/1KimFqzYHygCuRR3Csjz81Zne0AUJNhVb?usp=share_link
+
 However, I could do that in the future.
 
 In this project, I practically show that adding more layers to model can help to solve underfitting on train data. 
